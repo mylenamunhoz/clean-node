@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
     "test:verbose": "jest --passWithNoTests --runInBand",
-    "test:unit": "npm test --passWithNoTests --silent --noStackTrace --runInBand --watch -c jest-unit-config.js",
+    "test:unit": "npm test -- --watch -c jest-unit-config.js",
     "test:integration": "npm test -- --watch -c jest-integration-config.js",
     "test:staged": "npm test -- --findRelatedTests",
     "test:ci": "npm test -- --coverage"
@@ -18,6 +18,7 @@
     "@babel/preset-typescript": "^7.16.7",
     "@types/jest": "^27.4.1",
     "@types/node": "^17.0.31",
+    "@types/validator": "^13.7.3",
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "eslint": "^7.32.0",
     "eslint-config-standard-with-typescript": "^11.0.1",
@@ -34,6 +35,7 @@
     "typescript": "^4.6.4"
   },
   "dependencies": {
-    "ts-node": "^10.7.0"
+    "ts-node": "^10.7.0",
+    "validator": "^13.7.0"
   }
 }
