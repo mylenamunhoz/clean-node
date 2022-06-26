@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
-    "mongodb": "^4.7.0",
+    "mongodb": "^4.1.1",
     "ts-node": "^10.7.0",
     "validator": "^13.7.0"
   }
